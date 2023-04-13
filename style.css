@@ -1,0 +1,96 @@
+html{
+  box-sizing: border-box;
+  font-size: 64.2%;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+body {
+  line-height: 1.6rem;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: min(100px auto);
+  gap: 3px;
+  border: 1px solid ghostwhite;
+  margin: 5px;
+  border-radius: 7px;
+  background: white;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#caja1{
+  background-color: rgb(181, 113, 246);
+  border: 2px solid;
+}
+
+h3{
+  margin: 10px;
+  padding: 5px;
+  width: 50%;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 1.7rem;
+  
+}
+
+input{
+  margin: 10px;
+  padding: 5px;
+  width: 70%;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.7rem;
+}
+
+button{
+  margin: 20px;
+  padding: 5px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 7px;
+  font-size: 1.7rem;
+  cursor: pointer;
+  
+}
+
+#caja2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 7px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#caja3{
+  display: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  color: red;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+}
